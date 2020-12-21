@@ -7,7 +7,7 @@ class SolrAT66 < Formula
 
   bottle :unneeded
 
-  depends_on :java
+  depends_on :openjdk
 
   skip_clean "example/logs"
 
